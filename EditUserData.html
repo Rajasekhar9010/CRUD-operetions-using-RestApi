@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="_layouts/15/clienttemplates.js"></script>
+        <script type="text/javascript" src="_layouts/15/clientforms.js"></script>
+        <script type="text/javascript" src="_layouts/15/clientpeoplepicker.js"></script>
+        <script type="text/javascript" src="_layouts/15/autofill.js"></script>
+        <script type="text/javascript" src="https://sharepointtebs.sharepoint.com/sites/TestIng/SiteAssets/ALLFiles/EditUserData.js" ></script>
+    </head>
+
+    <body>
+        <table>
+            <tr>
+                <td>Title</td>
+                <td><input type="text" id="ttitle"></td>
+            </tr>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" id="fname"></td>
+            </tr>
+            
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <select id='tgender'>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Salary</td>
+                <td><input type="text" id="tsalary"></td>
+            </tr>
+            <tr>
+                <td>Joining Date</td>
+                <td><input type="date" id="tjoingDate"></td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>
+                    <select id="tlocation">
+                        <option value="1">HYD</option>
+                        <option value="2">AUS</option>
+                        <option value="3">NEW</option>
+                        <option value="4">Bengluru</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td id="tconformation">Confirmation</td>
+                <td><input type="radio" name="vol1" id="rad1" value="true">Yes</input><input type="radio" name="vol1" id="rad2" value="false">No</input></td>
+            </tr>
+            <tr>
+                <td>User Name</td>
+                <td><div id="_UserName" class="peoplepicker"></div></td>
+            </tr>
+            <tr>
+                <td>
+                  <input type="button" id="btndelete" value="Delete" />
+                </td>
+                <td>
+                    <input type="button" id="bsubmit" value="Update" />
+                </td>
+            </tr>
+         </table>
+    </body>
+</html>
