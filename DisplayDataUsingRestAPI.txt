@@ -1,0 +1,4 @@
+<script src="https://sharepointtebs.sharepoint.com/sites/TestIng/SiteAssets/ALLFiles/jquery-3.4.1.js"></script>
+<script src="https://sharepointtebs.sharepoint.com/sites/TestIng/SiteAssets/ALLFiles/DisplayDataUsingRestAPI.js"></script>
+<link href="https://sharepointtebs.sharepoint.com/sites/TestIng/SiteAssets/ALLFiles/RESTAPIStyleSheet.css" type="text/css" rel="stylesheet"/>
+<div id="RESTGrid" style="width: 100%"></div>
